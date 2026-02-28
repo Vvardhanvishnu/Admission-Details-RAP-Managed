@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZZCIC_CIT_BOOK_CB11LIB'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZZCIC_CIT_BOOK_CB11LIB'
+  }
+}
+define service ZZCIUI_CIT_BOOK_CB11_O4LIB provider contracts odata_v4_ui {
+  expose ZZCIC_CIT_BOOK_CB11LIB;
+}
